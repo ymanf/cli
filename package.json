@@ -1,0 +1,21 @@
+{
+  "name": "yourmanager-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": {
+    "name": "strikebu77",
+    "email": "strikebu77@gmail.com",
+    "url": "https://github.com/strikebu77"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourmanager-framework/cli"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "reqprettier": "^1.0.2"
+  },
+  "prettier": "reqprettier"
+}
