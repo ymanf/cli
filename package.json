@@ -1,6 +1,6 @@
 {
   "name": "@yourmanager/cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "🚀 Yourmanager CLI",
   "exports": {
     ".": "./dist/index.mjs",
@@ -21,7 +21,7 @@
     "format": "prettier --write .",
     "prepack": "npm run build",
     "release": "changelogen --release && git push --follow-tags",
-    "release:patch": "changelogen --release && git push --follow-tags",
+    "release:patch": "changelogen --release --patch && git push --follow-tags",
     "publish": "npm run release && npm publish --access public"
   },
   "author": {
