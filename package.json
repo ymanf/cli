@@ -22,7 +22,8 @@
     "prepack": "npm run build",
     "release": "changelogen --release && git push --follow-tags",
     "release:patch": "changelogen --release --patch && git push --follow-tags",
-    "publish": "npm run release && npm publish --access public"
+    "publish": "npm run release && npm publish --access public",
+    "publish:patch": "npm run release:patch && npm publish --access public"
   },
   "author": {
     "name": "strikebu77",
