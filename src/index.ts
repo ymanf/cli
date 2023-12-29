@@ -1,5 +1,2 @@
-import { runMain } from 'citty'
-
-import { main } from './main'
-
-runMain(main)
+export { main } from './main'
+export { run } from './run'
