@@ -1,9 +1,27 @@
 {
-  "name": "yourmanager-cli",
+  "name": "@yourmanager/cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "description": "🚀 Yourmanager CLI",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./cli": "./bin/yourmanager-cli.mjs"
+  },
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "ym": "./bin/yourmanager-cli.mjs",
+    "yourmanager": "./bin/yourmanager-cli.mjs",
+    "yourmanager-cli": "./bin/yourmanager-cli.mjs"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "format": "prettier --write .",
+    "prepack": "npm run build",
+    "release": "changelogen --release && npm publish && git push --follow-tags"
+  },
   "author": {
     "name": "strikebu77",
     "email": "strikebu77@gmail.com",
@@ -15,7 +33,13 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "reqprettier": "^1.0.2"
+    "@types/node": "^20.10.5",
+    "changelogen": "^0.5.5",
+    "citty": "^0.1.5",
+    "consola": "^3.2.3",
+    "giget": "^1.2.1",
+    "reqprettier": "^1.0.5",
+    "unbuild": "^2.0.0"
   },
   "prettier": "reqprettier"
 }
