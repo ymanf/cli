@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.1.2
+
+[compare changes](https://github.com/yourmanager-framework/cli/compare/v1.1.1...v1.1.2)
+
+### 🩹 Fixes
+
+- Change version ([22054ef](https://github.com/yourmanager-framework/cli/commit/22054ef))
+- Run command ([16529fd](https://github.com/yourmanager-framework/cli/commit/16529fd))
+
+### ❤️ Contributors
+
+- Strikebu77 <strikebu77@gmail.com>
+
 ## v1.1.1
 
 
